@@ -1,0 +1,29 @@
+
+
+.vegetables {
+    width: 100% !important;
+
+    background-image: url('https://enes.nl/wp-content/uploads/Fruitsveggiesbanner2_79468387.jpg') !important;
+    background-size: cover;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    text-decoration: underline !important;
+    color: #333 !important;
+}
+.inc:hover{
+    animation: scale 1.5s forwards;
+}
+@keyframes scale{
+    0% {
+        transform: scale(1)
+    }
+    100% {
+        transform: scale(1.2)
+    }
+}
